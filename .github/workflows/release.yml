@@ -11,6 +11,7 @@ concurrency:
 
 jobs:
   release:
+    permissions: write-all
     name: Create a release
     runs-on: ubuntu-latest
 
